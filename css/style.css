@@ -1,0 +1,71 @@
+body {
+   
+}
+
+h1 {
+    margin: 50px;
+    font-weight: bolder 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-style: italic;
+	font-weight: bolder 5px;
+}
+
+.navbar-heading h1{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.navbar {
+	background-color: lightgray;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #000;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#nav-list a:hover {
+	background: white;
+}
+
+#nav-list a {
+	font-size: 1.6em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+p {
+	font-style: italic;
+}
+
+li a p {
+	font-weight: bolder 2px;
+}
